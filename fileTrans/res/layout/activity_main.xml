@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xqkad.filetrans.MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv1_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="tv1" />
+
+    <TextView
+        android:id="@+id/tv2_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tv2"
+        android:layout_below="@id/tv1_main"
+        android:layout_marginTop="32dp"/>
+
+    <TextView
+        android:id="@+id/tv3_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tv3"
+        android:layout_below="@id/tv2_main"
+        android:layout_marginTop="32dp"/>
+
+    <Button
+        android:id="@+id/btn1_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="创建连接"
+        android:onClick="onClick"
+        android:background="#222222"
+        android:layout_below="@id/tv3_main"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp" />
+
+    <Button
+        android:id="@+id/btn2_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发送文件"
+        android:onClick="onClick"
+        android:background="#222222"
+        android:layout_below="@id/btn1_main"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
+    
+
+</RelativeLayout>
